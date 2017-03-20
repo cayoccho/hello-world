@@ -1,0 +1,25 @@
+Tour.java
+TourDaoImpl.java
+updatetour
+viewtour
+TourService*
+TourDao*
+BookTourController
+BookTour
+CancelRegistration
+hibernate-config
+ManageRegController
+manageregister
+register
+admin footer
+selectall.js
+BookTourDao*
+BookTourService*	
+
+error: 
+- updatetour
+- 
+
+Result:
+- Display tour list have ticket, date allow registration
+- 
