@@ -1,0 +1,50 @@
+BookTour
+BookTourDao*
+BookTourService*
+booktour
+registrationlist
+Tour
+addcommas.js
+adminfooter.jsp
+createtour.jsp
+registrationlist
+
+wx8mx7hds718a4xiqzu6fwd6e2ojdt0o2zrj2x2f3qqnz5as
+
+22/03/2017
+- Design registration form and show for customer book tour:
++ RegInfoDao*
++ RegInfoService*
++ designform
++ 
+
+- Hidden tour when full, over date allow registration:
++ tourlist
++ 
+
+- Limit number of ticket by ticket availabitily:
++ booktour
++ BookTourController
+
+- Delete Historyback, edit field will apperand:
++ editbooktour
++ booktourdetail
++ ManageRegController
+
+- Edit admin header:
++ adminheader
++ adminfooter
+
+- Cancel book tour:
++ manageregister
++ ManageRegController
++ RegInfoDao*
++ RegInfoService*
++ BookTourService*
++ BookTourDao*
++ editbooktour
++ booktour
++ booktourdetail
++ designform
++ registrationlist
++ 
