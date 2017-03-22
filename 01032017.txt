@@ -1,14 +1,11 @@
-register.jsp
-checkboxvalidation.js
-userfooter.jsp
-booktour
-TourDaoImpl
+
 
 Giao dien
 Tao tour
 Xem Chi Tiet Tour
 Dat Ve
 QL danh sach
+Chon thong tin cho user dang ky
 
 
 Dang Nhap
@@ -63,4 +60,16 @@ f
 - them ngay thang vao book tour //
 - loi tim kiem
 
+22/03/2017:
+- Edit search:
++ BookTourDaoImpl
++ TourDaoImpl
++ registrationlist
++ RegIndoDaoImpl
++ tourlist
 
+*****Remember delete ManageDataController.java and managedata.jsp*****
+
+
+- Error:
++ reCaptcha
