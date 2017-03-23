@@ -1,0 +1,94 @@
+Giao dien
+Tao tour
+Xem Chi Tiet Tour
+Dat Ve
+QL danh sach
+Chon thong tin cho user dang ky
+
+
+Dang Nhap
+Dang Ky
+Chinh Sua Tour
+Xoa Tour
+Tim Kiem
+
+
+
+
+
+-Check role co chua, import vo
+-default useradmin
+-Sua check dong y //
+-e.printStackTrace() khong su dung -> logger.error("Occured ex",e); //
+-constant, tao class/interface Util dinh nghia static final String. 
+-Them dau phay vao gia ve
+-Text editor
+-info, warn, error, debug, trace
+-rootLogger=INFO: info, warning, error
+move sessionF len lop cha, astractDAO //
+prriva SessionFac sessionF; //
+Session getCureen { //
+return ssisonF //
+} //
+class -> extends AbstractDAO //
+Session session = getCurrentSession(); //
+- Them static final vao FindAlphabet; (singelton) , move 2 dong String pattern = ra ngoai // 
+- Gop 2 file FindAl + FindD = Validation Util //
+- Sua id tu tang //
+- toString(), equals() //
+- Role.java, bo Haset<User> //
+- bo uniqueasd //
+- Ctrl + Shift + O: remove unuses library 
+- Dat ve cho nhieu nguoi, form dang ky do admin quy dinh //
+- 
+
+
+Khong quay tro ve book tour duoc neu registration list empty
+
+
+bo plugin cuoi
+f
+- chinh sua public ValidUtil //
+-           User.java -> Role default = 1;
+- tim kiem, huy dang ky, tao form chon muc dang ky //
+- tao object khoi tao khi start server
+- quan ly user
+- recaptcha      
+- chinh sua integer id -> int vi integer null, int ko null //
+- them ngay thang vao book tour //
+- loi tim kiem //
+
+22/03/2017:
+- Edit search:
++ BookTourDaoImpl
++ TourDaoImpl
++ registrationlist
++ RegIndoDaoImpl
++ tourlist
+
+23/03/2017:
+- Edit user header.
+
+- Manage account:
++ manageuser
++ ManageUserController
++ adminheader
++ UserDao*
++ UserService*
++ TourDao*
++ TourServiceImpl
++ 
+
+
+
+*****Remember delete ManageDataController.java and managedata.jsp*****
+
+
+- Error:
++ reCaptcha
++ text editor
++ commas
++ catch error for customer Id card
++ Not yet search correct with keyword
++ redirect when edit book tour
++ null when dont search anything match with keyword
