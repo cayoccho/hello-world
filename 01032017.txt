@@ -1,5 +1,3 @@
-
-
 Giao dien
 Tao tour
 Xem Chi Tiet Tour
@@ -52,13 +50,13 @@ bo plugin cuoi
 f
 - chinh sua public ValidUtil //
 -           User.java -> Role default = 1;
-- tim kiem, huy dang ky, tao form chon muc dang ky
+- tim kiem, huy dang ky, tao form chon muc dang ky //
 - tao object khoi tao khi start server
 - quan ly user
 - recaptcha      
 - chinh sua integer id -> int vi integer null, int ko null //
 - them ngay thang vao book tour //
-- loi tim kiem
+- loi tim kiem //
 
 22/03/2017:
 - Edit search:
@@ -69,12 +67,43 @@ f
 + tourlist
 
 23/03/2017:
-- Cancel registration:
+- add, delete, undo Cancel registration, edit registration infor, display cancel list: 
 + createtour
++ BookTourController
++ cancellist
++ booktour
++ booktourdetail
++ editbooktour
++ RegInfoDao*
++ RegInfoService*
 + 
+
+- Delete paganation:
++ BookTourDao*
++ BookTourSerive*
++ ManageRegController
+
+- Edit search for customer:
++ TourDao*
++ TourService*
++ BookTourDao*
++ BookTourSerive*
+
+- Manage account:
++ userheader
++ adminheader
++ manageaccount
++ 
+
 
 *****Remember delete ManageDataController.java and managedata.jsp*****
 
 
 - Error:
 + reCaptcha
++ text editor
++ commas
++ catch error for customer Id card
++ Not yet search correct with keyword
++ redirect when edit book tour
++ null when dont search anything match with keyword
