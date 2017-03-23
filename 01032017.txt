@@ -68,6 +68,11 @@ f
 + RegIndoDaoImpl
 + tourlist
 
+23/03/2017:
+- Cancel registration:
++ createtour
++ 
+
 *****Remember delete ManageDataController.java and managedata.jsp*****
 
 
