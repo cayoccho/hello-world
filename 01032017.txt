@@ -1,9 +1,15 @@
-Giao dien
-Tao tour
-Xem Chi Tiet Tour
-Dat Ve
-QL danh sach
-Chon thong tin cho user dang ky
+- Giao dien
+- Tao tour
+- Xem Chi Tiet Tour
+- Dat Ve cho nhieu nguoi
+- QL danh sach dang ky (xem, sua, xoa)
+- Quan ly huy dang ky (xem danh sach huy, khoi phuc huy, xoa)
+- Tim kiem dat ve, nguoi dang ky, thong tin da dat ve
+- 
+- Chon thong tin cho user dang ky
+- Quan ly nguoi dung (hien thi danh sach tai khoan tru tai khoan dang dang nhap, sua, xoa)
+- Quan ly thong tin ca nhan (hien thi, sua)
+
 
 
 Dang Nhap
@@ -66,10 +72,10 @@ f
 + RegIndoDaoImpl
 + tourlist
 
-23/03/2017:
+24/03/2017:
 - Edit user header.
 
-- Manage account:
+- Manage account (view, delete, edit):
 + manageuser
 + ManageUserController
 + adminheader
@@ -77,6 +83,44 @@ f
 + UserService*
 + TourDao*
 + TourServiceImpl
++ userdetail
++ User
++ edituser
+
+- Manage account for customer:
++ managemyacc
++ editmyacc
++ UserController
+
+- Display account list - account current:
++ UserDao*
++ UserService*
++ adminheader
++ manageuser
++ 
+
+- Fix some bugs:
++ tourdetail
++ managetour
++ booktourdetail
++ viewtour
++ TourDaoImpl
++ editbooktour
++ updatetour
++ booktour
+
+- Fix bug when edit book tour:
++ BookTourController
++ editreginfo
++ ManageRegController
++ registrationlist
++ booktourdetail
++ editbooktour
++ reginfodetail
+
+- Sending email:
++ dispatcher-
++ SendEmailController
 + 
 
 
@@ -89,6 +133,23 @@ f
 + text editor
 + commas
 + catch error for customer Id card
-+ Not yet search correct with keyword
 + redirect when edit book tour
-+ null when dont search anything match with keyword
++ null when dont search anything match with keyword in book tour
++ Number customer cancel in tour detail
++ phan quyen nguoi dung
+
+<!-- Filter Buttons -->
+				<div class="portfolio-filter-container margin-top-20">
+					<ul class="portfolio-filter">
+						<li><button class="btn btn-primary" type="button">
+								<i class="fa fa-filter"> theo:</i>
+							</button></li>
+						<li><a href="#" class="portfolio-selected btn btn-default"
+							data-filter="*">Nam</a></li>
+						<li><a href="#" class="btn btn-default" data-filter=".code">N</a>
+						</li>
+						<li><a href="#" class="btn btn-default" data-filter=".design"></a></li>
+						<li><a href="#" class="btn btn-default" data-filter=".audio"></a></li>
+					</ul>
+				</div>
+				<!-- End Filter Buttons -->
