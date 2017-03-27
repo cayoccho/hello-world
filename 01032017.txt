@@ -58,7 +58,7 @@ f
 -           User.java -> Role default = 1;
 - tim kiem, huy dang ky, tao form chon muc dang ky //
 - tao object khoi tao khi start server
-- quan ly user
+- quan ly user //
 - recaptcha      
 - chinh sua integer id -> int vi integer null, int ko null //
 - them ngay thang vao book tour //
@@ -137,6 +137,10 @@ f
 + null when dont search anything match with keyword in book tour
 + Number customer cancel in tour detail
 + phan quyen nguoi dung
++ loi khi nhap sai trong book tour
++ hien thi phan trang sai khi khong lay book tour da huy
++ tim kiem khong hien thi dung cho trong cancel list
++ 
 
 <!-- Filter Buttons -->
 				<div class="portfolio-filter-container margin-top-20">
@@ -153,3 +157,76 @@ f
 					</ul>
 				</div>
 				<!-- End Filter Buttons -->
+
+- Chi tiet tour to ra
+- Gia ve //
+- Noi dung bao phu man hinh //
+- Quan ly user, chinh role -> admin
+- Quan ly thong tin khi so luong ve lon hon 1
+- Them truong khac cho dang ky, cho phep chon khi tao tour
+- Them thong tin cac tour da dang ky/ cac tour da huy dang ky (kem theo dang ky tro lai)/ disable tour da di
+- Thay doi icon bang nut co chu //
+- sort tour theo thoi gian //
+- tao tab danh sach dang ky, danh sach huy //
+- export danh sach dang ky theo tour
+
+
+- Add commas when type price:
++ CreateTourController
++ TourValidation
++ addcommas
++ adminfooter
++ createtour
+
+- Change icon -> button:
++ managetour
++ manageuser
++ tourlist
+
+- Set admin for account:
++ 
+
+- Sort tour by time:
++ TourDaoImpl
+
+26/03/2017:
+- Add tabs:
++ registrationlist
++ ManageRegController
++ manageregister
++ 
+
+- Table:
++ table.css
++ managetour
++ tourlist
+
+- Update user, not yet add admin_user:
++ UserController
++ ManageUserController
++ editmyacc
++ edituser
+
+- Manage my tour list:
++ userheader
++ manageinfo
++ UserController
++ 
+
+
+<!-- Popup Cofirm --> <!-- <div id="deleteConfirm" class="modal fade">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"
+													aria-hidden="true">&times;</button>
+												<h4 class="modal-title">Ban muon xoa tour da chon?</h4>
+												</br>
+												<button type="button" class="btn btn-default"><a href="<c:url value='managetour#deleteCofirm/delete/${tour.idTour}'/>">Co</a></button>
+												<button type="button" class="btn btn-primary"
+													data-dismiss="modal">Khong</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End Popup Cofirm -->
