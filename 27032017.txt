@@ -1,0 +1,39 @@
+- Create tour:
++ Tour
++ TourDaoImpl
++ ManageTourController
++ ManageRegInfoController
+
++ createtour
++ designform
++ update tour
++ tourdetail
++ booktour
++ booktourdetail
+
+/*************************************************/
+
+- Manage my registration list + my cancel list + my tour done:
++ BookTour
++ BookTourController
++ UserController
++ UserDao*
++ UserService*
+
++ reginfodetail
++ editreginfo
++ editbooktour
++ userheader
++ managemyreg
+
+- Error:
++ return in booktourdetail and editbooktour
++ khong clear session sau khi logout
+
+/**********************************************/
+
+- Fix bugs cancel book tour:
++ BookTourDao*
++ BookTourService*
++ BookTourController
++ booktour
