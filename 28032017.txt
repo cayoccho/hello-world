@@ -1,0 +1,36 @@
+- Manage my tour gone:
++ userheader
++ managemyreg
+
++ BookTour
++ BookTourDaoImpl
++ RegInfoDaoImpl
++ Tour
++ UserDaoImpl
++ UserController
++ 
+
+
+/***********************************/
+
+- Rediscover ManageTour
+
+/***********************************/
+
+- Fix bugs:
++ booktourdetail
++ editbooktour
++ managemyacc
++ viewtour
++ userfooter
+
++ historyback
+
+/***********************************/
+
+- Insert fields infor when number of ticket > 1
++ showhiddenfields
++ 
+
++ userfooter
++ booktour

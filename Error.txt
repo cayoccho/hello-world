@@ -1,0 +1,17 @@
++ reCaptcha
++ text editor
++ commas
++ catch error for customer Id card
++ redirect when edit book tour
++ null when dont search anything match with keyword in book tour
++ Number customer cancel in tour detail
++ phan quyen nguoi dung
++ loi khi nhap sai trong book tour
++ hien thi phan trang sai khi khong lay book tour da huy
++ tim kiem khong hien thi dung cho trong cancel list
++ return in booktourdetail and editbooktour
++ khong clear session sau khi logout
+
+- Shop nguyen lieu lam handmade:
++ Soul shop: 107 Bui Thi Xuan, p. 2, q. Tan Binh
++ Thien duong thu cong: 182/49 Le Van Sy, q. Phu Nhuan
