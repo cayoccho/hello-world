@@ -1,0 +1,19 @@
+- Fix some bugs:
++ registrationlist
+
++ RegInfoDaoImpl
+
+- Edit calendar format: dd/mm/yy
+
+- Add effect:
++ registrationlist
++ managetour
++ manageregister
++ manageuser
++ tourlist
++ managemyreg
++ 
+
+
+- Error:
++ Display booksuccess when have not email
