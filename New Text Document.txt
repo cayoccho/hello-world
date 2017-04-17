@@ -1,0 +1,12 @@
+http://stackoverflow.com/questions/9139075/how-to-show-a-confirm-message-before-delete
+
+http://stackoverflow.com/questions/16959476/how-to-go-to-a-url-using-jquery
+
+http://stackoverflow.com/questions/9139075/how-to-show-a-confirm-message-before-delete
+
+http://codepen.io/anon/pen/NqdKZq
+
+http://stackoverflow.com/questions/6515502/javascript-form-submit-confirm-or-cancel-submission-dialog-box
+
+http://stackoverflow.com/questions/10462839/javascript-confirmation-dialog-on-href-link
+
